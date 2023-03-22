@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)), url("pexels-james-lee-6054896.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+.main_body{
+   width:90%;
+   max-width:450px;
+   position:absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%);
+   background:rgba(225,225,225,0.8);
+   padding:50px 60px 70px;
+   text-align:center;
+   border-radius: 20px;
+   
+    
+    
+}
+input{
+    margin-bottom: 10px;
+
+}
+h1{
+    margin-bottom: 10px;
+}
+button{
+    border:none;
+    padding:10px;
+    border-radius: 10px;
+    background-color: darkorange;
+}
+button:hover{
+    background-color:darkgoldenrod;
+}
